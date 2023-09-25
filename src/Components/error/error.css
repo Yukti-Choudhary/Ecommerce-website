@@ -1,0 +1,15 @@
+.error{
+    margin: 250px 15vw ;
+    line-height: 3rem;
+    color: rgba(0,0,0,0.7);
+    display: flex;
+}
+
+.error span{
+    margin-top: 10px;
+}
+
+.error__details{
+margin-left: 30px;
+
+}

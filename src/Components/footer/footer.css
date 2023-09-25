@@ -1,0 +1,24 @@
+.footer{
+    margin-top: 200px;
+    color:white;
+}
+
+.footer__nav ul{
+   display: flex;
+   list-style: none;
+   align-items: center;
+   margin: 20px 0 50px;
+}
+
+.footer__nav ul li{
+    margin: auto;
+}
+.footer__nav ul li:hover{
+    cursor: pointer;
+    color: rgba(0,0,0,0.65);
+}
+
+.footer__copywrite{
+    font-size: 12px;
+   margin: 40px 40px ;
+}

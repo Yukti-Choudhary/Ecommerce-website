@@ -1,0 +1,32 @@
+.slider {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.slider__img img {
+  width: 100vw;
+  height: 115vh;
+}
+
+.slider__button {
+  width: 50px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.slider__buttonLeft {
+  position: absolute;
+  top: 50vh;
+  left: 5px;
+  }
+
+.slider__buttonRight {
+  position: absolute;
+  top: 50vh;
+  right: 6px;
+}
+
+

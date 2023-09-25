@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 185px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+}
+.header__menu {
+  width: 100px;
+  margin-right: 4vw;
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__logo a {
+  text-decoration: none;
+}
+.header__logo h1 {
+  width: fit-content;
+  color: white;
+  font-size: 40px;
+}
+
+.header__logo h1::first-letter{
+  font-size: 50px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 15px 40px;
+  padding: 5px 0;
+  color: white;
+}
+.header__list a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__list span {
+  margin: 0 20px;
+  cursor: pointer;
+}
